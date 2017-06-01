@@ -1,0 +1,74 @@
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+.profile-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+}
+
+.profile-body {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+}
+
+.profile-img {
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 5px;
+}
+
+.blog-entry {
+    padding-bottom: 15px;
+}
+
+.blog-title {
+    font-size: 36px;
+}
+
+.blog-description {
+    font-size: 18px;
+}
+
+.glyphicon.glyphicon-envelope {
+    vertical-align: bottom;
+    font-size: 37px;
+}
+
+.contact-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-right:10px;
+}
+
+.contact-image {
+    border-radius: 3px;
+}
+
+.contact-image:hover {
+    box-shadow: 5px 3px 1px #888888;
+}
+
+@media (max-width: 767px) {
+    /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+    .body-content {
+        padding-top: 50px;
+    }
+
+    .profile-img {
+        max-height: 150px;
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 767px) {
+    .profile-img {
+      display:none;
+    }
+}
+

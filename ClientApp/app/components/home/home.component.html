@@ -1,0 +1,24 @@
+<br />
+
+<div class="col-xs-12">
+    <div class="col-sm-12 col-md-10">
+        <p *ngIf="!currentBlog"><em>Loading...</em></p>
+        <div *ngIf="currentBlog">           
+            <div class="blog-title"><h3>{{currentBlog.title}}</h3></div>
+            <div class="blog-description"><h4>{{currentBlog.description}}</h4></div>
+                <div [innerHTML]="currentBlog.content|MarkdownToHtml"></div>
+            </div>
+        <hr/>
+    </div>
+
+    <div class="col-sm-12 col-md-2 blog-nav-container">
+        <div class="blog-nav-title"><b>Latest entries</b></div>
+        <br />
+
+        <p class="blog-nav-entry" *ngFor="let blog of blogs">
+            <a (click)="setCurrentBlog([blog.id], $event)" href="#">{{blog.title}}</a>
+        </p>
+    </div>
+</div>
+
+

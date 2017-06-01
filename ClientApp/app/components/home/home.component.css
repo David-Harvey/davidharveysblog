@@ -1,0 +1,40 @@
+﻿blog-list ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.blog-title {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.blog-description {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.blog-nav-title {
+    text-align: center;
+}
+
+.blog-nav-container {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.blog-nav-entry {
+    text-align: center;
+    padding-bottom: 10px;    
+}
+
+.blog-title {
+    font-size: 36px;
+}
+
+.blog-description {
+    font-size: 18px;
+}
+
+
+
+

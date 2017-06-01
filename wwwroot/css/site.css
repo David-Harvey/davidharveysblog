@@ -1,0 +1,29 @@
+﻿body {
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #4ABDAC;
+}
+
+@media (max-width: 767px) {
+    /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+    body {
+        margin-top: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size:16px;
+    }
+
+    h1 {
+        font-size:32px;
+    }
+    h2{
+        font-size:26px;
+    }
+    h3{
+        font-size:22px;
+    }
+    h4{
+        font-size:18px;
+    }
+}
